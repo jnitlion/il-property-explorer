@@ -1,0 +1,7 @@
+# raw ILThermo cache — 8,314 files, fully regenerable with: python src/harvest.py
+data/raw/
+data/failures.txt
+
+__pycache__/
+*.pyc
+.streamlit/secrets.toml

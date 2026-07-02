@@ -1,0 +1,68 @@
+{
+  "feature_columns": [
+    "cat_mw",
+    "cat_heavy_atoms",
+    "cat_tpsa",
+    "cat_labute_asa",
+    "cat_logp",
+    "cat_rot_bonds",
+    "cat_rings",
+    "cat_arom_rings",
+    "cat_frac_csp3",
+    "cat_hbd",
+    "cat_hba",
+    "cat_n_N",
+    "cat_n_O",
+    "cat_n_F",
+    "cat_n_S",
+    "cat_n_P",
+    "cat_charge",
+    "cat_longest_chain",
+    "an_mw",
+    "an_heavy_atoms",
+    "an_tpsa",
+    "an_labute_asa",
+    "an_logp",
+    "an_rot_bonds",
+    "an_rings",
+    "an_arom_rings",
+    "an_frac_csp3",
+    "an_hbd",
+    "an_hba",
+    "an_n_N",
+    "an_n_O",
+    "an_n_F",
+    "an_n_S",
+    "an_n_P",
+    "an_charge",
+    "an_longest_chain"
+  ],
+  "targets": {
+    "viscosity": {
+      "n_samples": 15804,
+      "n_cation_groups": 171,
+      "grouped_cv_mae": 0.4269
+    },
+    "conductivity": {
+      "n_samples": 5736,
+      "n_cation_groups": 130,
+      "grouped_cv_mae": 0.6236
+    },
+    "density": {
+      "n_samples": 24972,
+      "n_cation_groups": 193,
+      "grouped_cv_mae": 26.762
+    },
+    "tg": {
+      "n_samples": 418,
+      "n_cation_groups": 138,
+      "grouped_cv_mae": 19.0451
+    }
+  },
+  "notes": {
+    "viscosity": "target is ln(eta/Pa*s); T_K is an input feature",
+    "conductivity": "target is ln(sigma/S*m-1); T_K is an input feature",
+    "density": "target is rho in kg/m3; T_K is an input feature",
+    "tg": "target is Tg in K derived from VFT fits (eta=1e12 Pa*s criterion)"
+  }
+}
