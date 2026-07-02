@@ -1,8 +1,8 @@
 # Ionic-Liquid Property Explorer
 
 Machine-learning dashboard for predicting the physical properties of ionic
-liquids — viscosity η(T), electrical conductivity σ(T), density ρ(T), and a
-derived glass-transition temperature Tg — for new cation–anion combinations.
+liquids including temperature-dependent viscosity η(T), electrical/ionic conductivity σ(T), and density ρ(T), as well
+as a VFT-derived glass-transition temperature Tg for new/unique cation–anion combinations.
 Trained on experimental data from the NIST
 [ILThermo](https://ilthermo.boulder.nist.gov) database.
 
