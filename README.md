@@ -6,9 +6,12 @@ as a VFT-derived glass-transition temperature Tg for new/unique cation–anion c
 Trained on experimental data from the NIST
 [ILThermo](https://ilthermo.boulder.nist.gov) database.
 
-Companion project to [jnitlion.github.io](https://github.com/jnitlion) —
-see the exploration notes in `jes-website/ilthermo-exploration.md` for the
-data survey and full pipeline design.
+**Live app:** https://il-property-explorer.streamlit.app
+
+**[METHODS.md](METHODS.md)** documents the modeling choices, the physics-informed
+Tg derivation, and each pipeline stage in detail.
+
+Companion project to [jnitlion.github.io](https://jnitlion.github.io).
 
 ## Pipeline
 
